@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= product.name %></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <div class="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-10">
+        <img src="<%= product.image %>" class="w-full h-64 object-cover rounded">
+        <h1 class="text-3xl font-bold mt-4"><%= product.name %></h1>
+        <p class="text-xl text-green-600 font-bold">$<%= product.price %></p>
+        <a href="<%= product.link %>" target="_blank" class="mt-4 block bg-orange-500 text-white px-4 py-2 rounded text-center hover:bg-orange-600">
+            Buy on Amazon
+        </a>
+        <a href="/" class="mt-4 block text-center text-blue-500">⬅ Back to Store</a>
+    </div>
+
+</body>
+</html>

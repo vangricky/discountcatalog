@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Govee RGBIC Floor Lamp, LED Corner Lamp Works with Alexa, 1000 Lumen Smart Modern Floor Lamp with Music Sync and 16 Million DIY Colors, Color Changing Standing Floor Lamp for Bedroom Living Room Black",
+    "price": 59.99,
+    "image": "https://m.media-amazon.com/images/I/615Yog6t9nL._AC_SL1500_.jpg",
+    "link": "https://amzn.to/4b6COco"
+  },
+  {
+    "id": 2,
+    "name": "USB-C Fast Charger",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/61FohmFDq5L._AC_SL1500_.jpg",
+    "link": "https://www.amazon.com/dp/B08F2R6BXY?tag=yourtag-20"
+  },
+  {
+    "id": 2,
+    "name": "USB-C Fast Charger",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/61FohmFDq5L._AC_SL1500_.jpg",
+    "link": "https://www.amazon.com/dp/B08F2R6BXY?tag=yourtag-20"
+  }
+]
