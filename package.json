@@ -24,6 +24,7 @@
     "express-session": "^1.18.1",
     "express-validator": "^7.2.1",
     "pg": "^8.13.1",
+    "puppeteer": "^24.2.1",
     "tailwindcss": "^4.0.6"
   }
 }

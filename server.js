@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 const PORT = process.env.PORT || 3000;
+const scrapeAmazon = require("./scraper");
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
@@ -12,25 +13,61 @@ const products = JSON.parse(fs.readFileSync("products.json", "utf-8"));
 app.get("/", (req, res) => {
   let search = req.query.search ? req.query.search.toLowerCase() : "";
   let maxPrice = req.query.maxPrice ? parseFloat(req.query.maxPrice) : null;
+  let department =
+    req.query.department && req.query.department !== "All Departments"
+      ? req.query.department.toLowerCase()
+      : ""; // Ignore "All Departments"
 
   let filteredProducts = products.filter(
     (p) =>
       p.name.toLowerCase().includes(search) &&
-      (maxPrice === null || p.price <= maxPrice)
+      (maxPrice === null || p.price <= maxPrice) &&
+      (department === "" || p.department.toLowerCase() === department)
   );
 
-  res.render("index", { products: filteredProducts, search, maxPrice });
+  res.render("index", {
+    products: filteredProducts,
+    search,
+    maxPrice,
+    department,
+  });
 });
 
-// Pre-filtered routes for specific price categories
+// Deals Route - Pre-filtered by price
 app.get("/deals/:maxPrice", (req, res) => {
   const maxPrice = parseFloat(req.params.maxPrice);
-  const filteredProducts = products.filter((p) => p.price <= maxPrice);
-  res.render("index", { products: filteredProducts, search: "", maxPrice });
+  const filteredProducts = products.filter((p) => {
+    const priceNumber = parseFloat(p.price.replace(/[^0-9.]/g, ""));
+    return priceNumber <= maxPrice;
+  });
+
+  res.render("index", {
+    products: filteredProducts,
+    search: "",
+    maxPrice,
+    department: "",
+  });
 });
 
+// scraper.js - puppetter
+app.get("/scrape", async (req, res) => {
+  const url = req.query.url;
+  if (!url) return res.status(400).send("Product URL is required");
+  try {
+    const productData = await scrapeAmazon(url);
+    res.json(productData);
+  } catch (error) {
+    console.error("Scraping error:", error); // Logs the actual error
+    res.status(500).send("Error scraping data");
+  }
+});
+
+// About & Contact Pages
 app.get("/about", (req, res) => res.render("about"));
 app.get("/contact", (req, res) => res.render("contact"));
+app.get("/privacy", (req, res) => {
+  res.render("privacy");
+});
 
 app.listen(PORT, () =>
   console.log(`Server running at http://localhost:${PORT}`)

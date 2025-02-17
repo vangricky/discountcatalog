@@ -11,10 +11,18 @@
     <div class="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-10">
         <img src="<%= product.image %>" class="w-full h-64 object-cover rounded">
         <h1 class="text-3xl font-bold mt-4"><%= product.name %></h1>
-        <p class="text-xl text-green-600 font-bold">$<%= product.price %></p>
-        <a href="<%= product.link %>" target="_blank" class="mt-4 block bg-orange-500 text-white px-4 py-2 rounded text-center hover:bg-orange-600">
-            Buy on Amazon
-        </a>
+        <p class="text-xl text-green-600 font-bold"><%= product.price %></p>
+        
+        <% if (product.discountpercent) { %>
+            <p class="text-xl text-red-500 font-bold"><%= product.discountpercent %> OFF</p>
+        <% } %>
+
+        <p class="text-md text-gray-700 mt-2">Department: <%= product.department %></p>
+
+        <a href="<%= product.link %>" target="_blank" 
+            class="mt-4 block bg-orange-500 text-white px-4 py-2 rounded text-center transition-colors duration-300 delay-300 hover:bg-orange-600 hover:scale-105">
+             Buy on Amazon
+         </a>
         <a href="/" class="mt-4 block text-center text-blue-500">⬅ Back to Store</a>
     </div>
 

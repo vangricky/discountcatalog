@@ -2,22 +2,34 @@
   {
     "id": 1,
     "name": "Govee RGBIC Floor Lamp, LED Corner Lamp Works with Alexa, 1000 Lumen Smart Modern Floor Lamp with Music Sync and 16 Million DIY Colors, Color Changing Standing Floor Lamp for Bedroom Living Room Black",
-    "price": 59.99,
+    "price": "$59.99",
+    "discountPercent": "-40%",
     "image": "https://m.media-amazon.com/images/I/615Yog6t9nL._AC_SL1500_.jpg",
-    "link": "https://amzn.to/4b6COco"
+    "link": "https://amzn.to/4b6COco",
+    "department": "Electronics"
   },
   {
-    "id": 2,
-    "name": "USB-C Fast Charger",
-    "price": 19.99,
-    "image": "https://m.media-amazon.com/images/I/61FohmFDq5L._AC_SL1500_.jpg",
-    "link": "https://www.amazon.com/dp/B08F2R6BXY?tag=yourtag-20"
+    "name": "SAMSUNG Galaxy S24 FE AI Phone, 128GB Unlocked Android Smartphone, High-Res 50MP Camera, Long Battery Life, Brighter Display Screen, US Version, 2024, US 1 Yr Manufacturer Warranty, Graphite",
+    "price": "$499.99",
+    "discountPercent": "-23%",
+    "image": "https://m.media-amazon.com/images/I/61uakkLoHxL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/3X4sUm7",
+    "department": "Electronics"
   },
   {
-    "id": 2,
-    "name": "USB-C Fast Charger",
-    "price": 19.99,
-    "image": "https://m.media-amazon.com/images/I/61FohmFDq5L._AC_SL1500_.jpg",
-    "link": "https://www.amazon.com/dp/B08F2R6BXY?tag=yourtag-20"
+    "name": "Cordless Vacuum Cleaner, 550W 45KPA 60Mins Cordless Stick Vacuum Cleaner With Touch Screen, Self-Standing,Wall Mount Charging, Handheld Vacuum Cleaners for Home/Pet Hair/Carpets/Hard Floors(X7A)",
+    "price": "$129.98",
+    "discountPercent": "-38%",
+    "image": "https://m.media-amazon.com/images/I/81w+tL0FriL._AC_SY450_.jpg",
+    "link": "https://amzn.to/431XksO",
+    "department": "Home & Kitchen"
+  },
+  {
+    "name": "Warming Mat for Food,Food Warming Mat,Electric Warming Tray for Buffets Party and Home Daily Use,Heating Fastly in 10s,Portable Design,Timed Function for Your Family.",
+    "price": "$59.99",
+    "discountPercent": "-40%",
+    "image": "https://m.media-amazon.com/images/I/71nAcitCWOL._AC_SY450_.jpg",
+    "link": "https://amzn.to/4i3deaM",
+    "department": "Home & Kitchen"
   }
 ]
