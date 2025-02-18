@@ -152,7 +152,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <% products.forEach(product => { %>
                 <div class="bg-white p-4 shadow-lg rounded-lg">
-                    <img src="<%= product.image %>" class="product-image rounded">
+                    <a href="<%= product.link %>"><img src="<%= product.image %>" class="product-image rounded"></a>
                     <h2 class="text-xl font-semibold mt-2"><%= product.name %></h2>
                     <p class="text-green-600 text-lg font-bold"><%= product.price %></p>
                     <p class="text-red-500 text-md"><%= product.discountPercent %></p>
