@@ -20,6 +20,7 @@
 <!-- Navbar -->
 <nav class="bg-[#5B8C5A] text-white p-4 shadow-md">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
+        
         <!-- Logo -->
         <div>
             <a href="/">
@@ -27,13 +28,13 @@
             </a>
         </div>
 
-        <!-- Website Name -->
-        <div class="text-5xl font-bold header-title">
+        <!-- Website Name (Now Visible on Mobile and Desktop) -->
+        <div class="text-2xl md:text-5xl font-bold header-title mx-auto">
             Discount Catalog
         </div>
 
-        <!-- Navigation Links -->
-        <ul class="flex space-x-6">
+        <!-- Desktop Navigation Links (Hidden on mobile) -->
+        <ul class="hidden md:flex space-x-6">
             <li>
                 <a href="/" class="relative pb-2 transition duration-300 after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-0 after:transition-all after:duration-300 after:ease-in-out hover:after:w-full">Home</a>
             </li>
@@ -44,8 +45,22 @@
                 <a href="/contact" class="relative pb-2 transition duration-300 after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-0 after:transition-all after:duration-300 after:ease-in-out hover:after:w-full">Contact</a>
             </li>
         </ul>
-        
-        
+
+        <!-- Mobile Menu Button -->
+        <button id="menuToggle" class="md:hidden text-white focus:outline-none ml-auto">
+            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Navigation Menu (Hidden by default) -->
+    <div id="mobileMenu" class="hidden md:hidden bg-[#5B8C5A] text-white p-4">
+        <ul class="flex flex-col space-y-4 text-center">
+            <li><a href="/" class="block w-full">Home</a></li>
+            <li><a href="/about" class="block w-full">About Us</a></li>
+            <li><a href="/contact" class="block w-full">Contact</a></li>
+        </ul>
     </div>
 </nav>
 
@@ -172,6 +187,11 @@
 <script>
     // Auto-update copyright year
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Toggle mobile menu visibility
+    document.getElementById("menuToggle").addEventListener("click", function() {
+        document.getElementById("mobileMenu").classList.toggle("hidden");
+    });
 </script>
 
 </body>
