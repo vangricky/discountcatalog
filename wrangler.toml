@@ -1,0 +1,11 @@
+name = "discountcatalog"
+type = "javascript"
+
+account_id = "89ec05e1616ec403d52cd59dabc02c48"
+workers_dev = true
+route = "discount-catalog.com/*" 
+zone_id = "49a176109f840c10b8050ba28fa40282"
+
+[build]
+command = "npm install && npm run build"
+upload.format = "modules"
