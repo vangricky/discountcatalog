@@ -10,3 +10,5 @@ products.json
 package.json
 
 scraper.js
+wrangler.toml
+.wrangler.toml
