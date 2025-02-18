@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   let department =
     req.query.department && req.query.department !== "All Departments"
       ? req.query.department.toLowerCase()
-      : ""; // Ignore "All Departments"
+      : "";
 
   let filteredProducts = products.filter(
     (p) =>
@@ -24,6 +24,8 @@ app.get("/", (req, res) => {
       (maxPrice === null || p.price <= maxPrice) &&
       (department === "" || p.department.toLowerCase() === department)
   );
+
+  filteredProducts = filteredProducts.sort(() => Math.random() - 0.5);
 
   res.render("index", {
     products: filteredProducts,

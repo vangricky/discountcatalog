@@ -222,6 +222,15 @@
     document.getElementById("menuToggle").addEventListener("click", function() {
         document.getElementById("mobileMenu").classList.toggle("hidden");
     });
+
+    document.addEventListener("click", (event) => {
+    if (!event.target.closest("#dealsDropdown") && !event.target.closest("#dealsButton")) {
+        document.getElementById("dealsDropdown").classList.add("hidden");
+    }
+    if (!event.target.closest("#departmentsDropdown") && !event.target.closest("#departmentsButton")) {
+        document.getElementById("departmentsDropdown").classList.add("hidden");
+    }
+});
 </script>
 
 </body>
