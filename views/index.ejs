@@ -97,7 +97,7 @@
     <div class="max-w-4xl mx-auto p-6">
         <!-- Search Bar -->
         <form method="GET" action="/" class="search-bar flex items-center p-2 shadow-lg mb-6">
-            <input type="text" name="search" value="<%= search %>" placeholder="Search for deals..." class="flex-grow">
+            <input type="text" name="search" value="<%= search || '' %>" placeholder="Search for deals..." class="flex-grow">
             <button type="submit">🔍</button>
         </form>
 
@@ -136,23 +136,13 @@
 
 </div>
 
-<script>
-    function toggleDealsDropdown() {
-        document.getElementById("dealsDropdown").classList.toggle("hidden");
-    }
-
-    function toggleDepartmentsDropdown() {
-        document.getElementById("departmentsDropdown").classList.toggle("hidden");
-    }
-</script>
-
 
 
         <!-- Product Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <% products.forEach(product => { %>
                 <div class="bg-white p-4 shadow-lg rounded-lg">
-                    <a href="<%= product.link %>"><img src="<%= product.image %>" class="product-image rounded"></a>
+                    <a href="<%= product.link %>"><img src="<%= product.image %>" class="product-image rounded" loading="lazy"></a>
                     <h2 class="text-xl font-semibold mt-2"><%= product.name %></h2>
                     <p class="text-green-600 text-lg font-bold"><%= product.price %></p>
                     <p class="text-red-500 text-md"><%= product.discountPercent %></p>
@@ -231,6 +221,10 @@
         });
     }
 
+    document.getElementById("menuToggle").addEventListener("click", function () {
+        document.getElementById("mobileMenu").classList.toggle("hidden");
+    });
+
     // Close dropdown when clicking outside
     document.addEventListener("click", function (event) {
         if (!event.target.closest(".relative")) {
@@ -240,7 +234,30 @@
         }
     });
 
-    function initDropdowns() {
+    document.addEventListener("DOMContentLoaded", initDropdowns);
+
+    function toggleDealsDropdown() {
+        document.getElementById("dealsDropdown").classList.toggle("hidden");
+    }
+
+    function toggleDepartmentsDropdown() {
+        document.getElementById("departmentsDropdown").classList.toggle("hidden");
+    }
+
+    document.addEventListener("click", function (event) {
+    let dealsDropdown = document.getElementById("dealsDropdown");
+    let departmentsDropdown = document.getElementById("departmentsDropdown");
+
+    if (!event.target.closest("#dealsDropdown") && !event.target.closest("button[onclick='toggleDealsDropdown()']")) {
+        dealsDropdown.classList.add("hidden");
+    }
+
+    if (!event.target.closest("#departmentsDropdown") && !event.target.closest("button[onclick='toggleDepartmentsDropdown()']")) {
+        departmentsDropdown.classList.add("hidden");
+    }
+});
+
+function initDropdowns() {
         document
             .getElementById("dealsButton")
             .addEventListener("click", (e) => {
@@ -255,8 +272,6 @@
                 toggleDropdown("departmentsDropdown");
             });
     }
-
-    document.addEventListener("DOMContentLoaded", initDropdowns);
 </script>
 
 </body>
