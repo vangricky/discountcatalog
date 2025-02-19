@@ -51,6 +51,11 @@ app.get("/deals/:maxPrice", (req, res) => {
   });
 });
 
+// Sitemap
+app.get("/sitemap.xml", (req, res) => {
+  res.sendFile(path.join(__dirname, "sitemap.xml"));
+});
+
 // scraper.js - puppetter
 app.get("/scrape", async (req, res) => {
   const url = req.query.url;
