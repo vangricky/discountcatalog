@@ -51,9 +51,13 @@ app.get("/deals/:maxPrice", (req, res) => {
   });
 });
 
-// Sitemap
 app.get("/sitemap.xml", (req, res) => {
-  res.sendFile(path.join(__dirname, "sitemap.xml"));
+  res.sendFile(__dirname + "/sitemap.xml", (err) => {
+    if (err) {
+      console.error("Error serving sitemap:", err);
+      res.status(500).send("Internal Server Error");
+    }
+  });
 });
 
 // scraper.js - puppetter
