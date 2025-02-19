@@ -218,19 +218,45 @@
     // Auto-update copyright year
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Toggle mobile menu visibility
-    document.getElementById("menuToggle").addEventListener("click", function() {
-        document.getElementById("mobileMenu").classList.toggle("hidden");
+ // Toggle dropdown function
+ function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        dropdown.classList.toggle("hidden");
+
+        // Close other dropdown if open
+        document.querySelectorAll(".dropdown").forEach((el) => {
+            if (el.id !== id && !el.classList.contains("hidden")) {
+                el.classList.add("hidden");
+            }
+        });
+    }
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", function (event) {
+        if (!event.target.closest(".relative")) {
+            document.querySelectorAll(".dropdown").forEach((dropdown) => {
+                dropdown.classList.add("hidden");
+            });
+        }
     });
 
-    document.addEventListener("click", (event) => {
-    if (!event.target.closest("#dealsDropdown") && !event.target.closest("#dealsButton")) {
-        document.getElementById("dealsDropdown").classList.add("hidden");
+    function initDropdowns() {
+        document
+            .getElementById("dealsButton")
+            .addEventListener("click", (e) => {
+                e.stopPropagation();
+                toggleDropdown("dealsDropdown");
+            });
+
+        document
+            .getElementById("departmentsButton")
+            .addEventListener("click", (e) => {
+                e.stopPropagation();
+                toggleDropdown("departmentsDropdown");
+            });
     }
-    if (!event.target.closest("#departmentsDropdown") && !event.target.closest("#departmentsButton")) {
-        document.getElementById("departmentsDropdown").classList.add("hidden");
-    }
-});
+
+    document.addEventListener("DOMContentLoaded", initDropdowns);
 </script>
 
 </body>
