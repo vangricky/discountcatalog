@@ -98,19 +98,11 @@
   },
   {
     "name": "Samsung Galaxy Tab S9 FE 10.9” 128GB WiFi Android Tablet, Large Display, Long Battery Life, Powerful Processor, S Pen, 8MP Camera, Lightweight Durable Design, Expandable Storage, US Version,2023, Gray",
-    "price": "$296.18",
-    "discountPercent": "-34%",
+    "price": "$289.72",
+    "discountPercent": "-36%",
     "image": "https://m.media-amazon.com/images/I/417bx91cc8L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/4gUwkyY",
     "department": "Electronics"
-  },
-  {
-    "name": "Stacy's Pita Chips, Simply Naked, 1.5-Ounce Bags (Pack of 24)",
-    "price": "$12.78",
-    "discountPercent": "-59%",
-    "image": "https://m.media-amazon.com/images/I/51MScY9SniL._SX300_SY300_QL70_FMwebp_.jpg",
-    "link": "https://amzn.to/417nYy5",
-    "department": "Grocery & Gourmet Food"
   },
   {
     "name": "Medicube Zero Pore Pads 2.0, Dual-Textured Facial Toner Pads for Exfoliation and Pore Care with 4.5% AHA Lactic Acid & 0.45% BHA Salicylic Acid, Ideal for All Skin Types, Korean Skin Care (70 Pads)",
@@ -122,8 +114,8 @@
   },
   {
     "name": "LG 27-Inch StanbyME Go Portable Smart 1080P Touch Screen (27LX5QKNA, 2023 Model), Calming Beige",
-    "price": "$696.99",
-    "discountPercent": "-42%",
+    "price": "$896.99",
+    "discountPercent": "-25%",
     "image": "https://m.media-amazon.com/images/I/81jJ3UE0kjL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/4bdg5vC",
     "department": "Electronics"
@@ -151,14 +143,6 @@
     "image": "https://m.media-amazon.com/images/I/71I8KhVWMcL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/3X7A2xZ",
     "department": "Health & Household"
-  },
-  {
-    "name": "Amazon Fire HD 10 Kids Pro tablet (newest model) ages 6-12. Bright 10.1\" HD screen, includes ad-free content, robust parental controls, 13-hr battery and slim case for older kids, 32 GB, Nebula",
-    "price": "$139.99",
-    "discountPercent": "-26%",
-    "image": "https://m.media-amazon.com/images/I/71xfcT-AUBL._AC_SY300_SX300_.jpg",
-    "link": "https://amzn.to/42XCj2B",
-    "department": "Electronics"
   },
   {
     "name": "upsimples 8x10 Picture Frame Set of 5, Display Pictures 5x7 with Mat or 8 x 10 Without, Wall Gallery Photo Frames, Black",
@@ -211,15 +195,15 @@
   {
     "name": "Samsonite Omni 2 Hardside Expandable Luggage with Spinner Wheels, Birch White, 2-Piece Set (Carry-on/Large)",
     "price": "$202.56",
-    "discountPercent": "-56%",
+    "discountPercent": "-45%",
     "image": "https://m.media-amazon.com/images/I/81t2vZ28VBL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/41mvQwX",
     "department": "Health & Household"
   },
   {
     "name": "Samsung Galaxy Watch Ultra 47mm LTE AI Smartwatch w/Energy Score, Wellness Tips, Heart Rate Tracking, Sleep Monitor, Fitness Tracker, GPS, 2024,Titanium Silver [US Version, 1Yr Manufacturer Warranty]",
-    "price": "$419.99",
-    "discountPercent": "-35%",
+    "price": "$417.00",
+    "discountPercent": "-36%",
     "image": "https://m.media-amazon.com/images/I/817QHxxq34L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/4hFJWze",
     "department": "Unknown department"
@@ -266,8 +250,8 @@
   },
   {
     "name": "Acer USB Hub 4 Ports, Multiple USB 3.0 Hub, USBA Splitter for Laptop with Type C Power Port, Extender for A Port Laptop, PC, Desktop and More (2ft)",
-    "price": "$9.99",
-    "discountPercent": "-50%",
+    "price": "$14.99",
+    "discountPercent": "-25%",
     "image": "https://m.media-amazon.com/images/I/61FFBZwEvtL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/41myLWr",
     "department": "Electronics"
@@ -282,8 +266,8 @@
   },
   {
     "name": "Kasa Indoor Pan/Tilt Smart Security Camera, 1080p HD Dog-Camera,2.4GHz with Night Vision,Motion Detection for Baby and Pet Monitor, Cloud & SD Card Storage, Works with Alexa& Google Home (EC70), White",
-    "price": "$19.91",
-    "discountPercent": "-34%",
+    "price": "$22.99",
+    "discountPercent": "-23%",
     "image": "https://m.media-amazon.com/images/I/51oao7xTT8L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/4hGq2E1",
     "department": "Baby"
@@ -298,8 +282,8 @@
   },
   {
     "name": "Aveeno Baby Bathtime Solutions Baby & Me Gift Set with Baby Wash & Shampoo, Calming Baby Bath, Baby Daily Moisturizing Lotion & Stress Relief Body Wash for Mom, Oatmeal, 4 Items",
-    "price": "$19.53",
-    "discountPercent": "-39%",
+    "price": "$22.98",
+    "discountPercent": "-28%",
     "image": "https://m.media-amazon.com/images/I/717S1G4-JkL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/4bdoSNZ",
     "department": "Baby"
@@ -359,5 +343,133 @@
     "image": "https://m.media-amazon.com/images/I/41V0VjXDAtL._SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/4i5fXAi",
     "department": "Baby"
+  },
+  {
+    "name": "KitchenAid Artisan Series 5 Quart Tilt Head Stand Mixer with Pouring Shield KSM150PS, Almond Cream",
+    "price": "$349.95",
+    "discountPercent": "-22%",
+    "image": "https://m.media-amazon.com/images/I/71cSdWwwGsL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/42ZCt9E",
+    "department": "Home & Kitchen"
+  },
+  {
+    "name": "BLUETTI AC180 Portable Power Station, 1152Wh LiFePO4 Battery Backup w/ 4 1800W (2700W peak) AC Outlets, 0-80% in 45Min, Solar Generator for Camping, Off-grid, Power Outage",
+    "price": "$459.00",
+    "discountPercent": "-54%",
+    "image": "https://m.media-amazon.com/images/I/71Lg8i251IL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/41fcubU",
+    "department": "Tools & Home Improvement"
+  },
+  {
+    "name": "EHEYCIGA Orthopedic Dog Beds for Extra Large Dogs, Waterproof Memory Foam XL Dog Bed with Sides, Non-Slip and Egg-Crate Foam Big Dog Couch Bed with Washable Removable Cover, Grey",
+    "price": "$39.99",
+    "discountPercent": "-20%",
+    "image": "https://m.media-amazon.com/images/I/71UVgdOvzoL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/3X9XieK",
+    "department": "Pet Supplies"
+  },
+  {
+    "name": "Aquasonic Black Series Ultra Whitening Toothbrush – ADA Accepted Electric Toothbrush- 8 Brush Heads & Travel Case – 40,000 VPM Electric Motor & Wireless Charging - 4 Modes w Smart Timer",
+    "price": "$29.95",
+    "discountPercent": "-40%",
+    "image": "https://m.media-amazon.com/images/I/41sVeeGZHkL._SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/3X9vN4W",
+    "department": "Beauty"
+  },
+  {
+    "name": "MOVA P10 Pro Ultra Robot Vacuum and Mop 13,000Pa Suction, 140°F Hot Water Auto Mop Washing & Drying, Dual Spinning Extenable Mop,10.5mm Mop Lifting for Carpet, 360°Obstacle Avoidance, App Control",
+    "price": "$549.99",
+    "discountPercent": "-50%",
+    "image": "https://m.media-amazon.com/images/I/6120qaixkEL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4hO2gGk",
+    "department": "Tools & Home Improvement"
+  },
+  {
+    "name": "Walking Pad Under Desk Treadmill, Portable Small Treadmills for Home and Office, 2.5HP Super Quiet Brushless Motorized Walking Jogging Running Machine with Remote Control",
+    "price": "$119.98",
+    "discountPercent": "-30%",
+    "image": "https://m.media-amazon.com/images/I/71o6H-364oL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4hNLTJP",
+    "department": "Sports & Outdoors"
+  },
+  {
+    "name": "Under Desk Elliptical Machine, Electric Ellipse Leg Exerciser as Seen on Tv for Seniors with 12 Adjustable, Quiet Portable Elliptical Machine, Seated Pedal Exerciser with Remote Control",
+    "price": "$116.99",
+    "discountPercent": "-38%",
+    "image": "https://m.media-amazon.com/images/I/71+Mrzs6hzL._AC_SY300_SX300_.jpg",
+    "link": "https://amzn.to/4b6y3jf",
+    "department": "Sports & Outdoors"
+  },
+  {
+    "name": "Raycon Everyday Earbuds (2024 Edition) - Bluetooth True Wireless in-Ear Buds with 32 Hours Playtime, Multpoint Technology, Extreme Comfort, and Active Noise Cancellation (Carbon Black)",
+    "price": "$55.99",
+    "discountPercent": "-30%",
+    "image": "https://m.media-amazon.com/images/I/61Sbw7sQWjL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4k72tWy",
+    "department": "Electronics"
+  },
+  {
+    "name": "Majestic Pure Lavender Essential Oil with Glass Dropper | 100% Pure and Natural Lavender Oil | Premium Grade Essential Oils for Diffusers, Skin, Aromatherapy, Massage | 4 Fl Oz",
+    "price": "$8.93",
+    "discountPercent": "-40%",
+    "image": "https://m.media-amazon.com/images/I/41fDWHqA0tL._SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/412HFH8",
+    "department": "Beauty"
+  },
+  {
+    "name": "CAROTE 21Pcs Pots and Pans Set, Nonstick Cookware Sets, White Granite Induction Cookware Non Stick Cooking Set w/Frying Pans & Saucepans(PFOS, PFOA Free)",
+    "price": "$127.49",
+    "discountPercent": "-33%",
+    "image": "https://m.media-amazon.com/images/I/711JrV49tmL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4i7ynAv",
+    "department": "Home & Kitchen"
+  },
+  {
+    "name": "RENPHO Smart Scale for Body Weight, FSA HSA Eligible, Digital Bathroom Scale BMI Weighing Bluetooth Body Fat Scale, Body Composition Monitor Health Analyzer with Smartphone App, 400 lbs - Elis 1",
+    "price": "$19.99",
+    "discountPercent": "-43%",
+    "image": "https://m.media-amazon.com/images/I/412aMQ8WlnL._SY445_SX342_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/41tS2Ej",
+    "department": "Beauty & Personal Care"
+  },
+  {
+    "name": "Momcozy Breast Pump Hands Free Upgraded Mobile Flow | M9, App Discreet Control with Personalized Multi-Modes & 15 Levels, Wearable Breast Pump 24mm, 2 Pack Cozy Red",
+    "price": "$229.49",
+    "discountPercent": "-33%",
+    "image": "https://m.media-amazon.com/images/I/71sk4bMjQUL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/41nAYkl",
+    "department": "Beauty & Personal Care"
+  },
+  {
+    "name": "Ninja Air Fryer Pro 4-in-1 with 5 QT Capacity, Air Fry, Roast, Reheat, Dehydrate, Air Crisp Technology with 400F for hot, 120 Volts, Nonstick Basket & Crisper Plate, Grey, AF141",
+    "price": "$89.99",
+    "discountPercent": "-25%",
+    "image": "https://m.media-amazon.com/images/I/71QwoGmcfUL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4i37RZ0",
+    "department": "Home & Kitchen"
+  },
+  {
+    "name": "Miracase for iPhone 16 Pro Max Case 6.9'', [Bubble Free] Full-Body Bumper Phone case with Built-in Full Glass Screen&Camera Control, Compatible with MagSafe,Drop Proof 16 Pro Max Cover,Desert Brown",
+    "price": "$15.16",
+    "discountPercent": "-49%",
+    "image": "https://m.media-amazon.com/images/I/71ksm1Z+RaL._AC_SY300_SX300_.jpg",
+    "link": "https://amzn.to/4hOj0Ny",
+    "department": "Electronics"
+  },
+  {
+    "name": "Amazon Fire TV 43\" 4-Series 4K UHD smart TV with Alexa Voice Remote Enhanced, stream live TV without cable",
+    "price": "$229.99",
+    "discountPercent": "-38%",
+    "image": "https://m.media-amazon.com/images/I/61TzCe1zkdL._AC_SY300_SX300_.jpg",
+    "link": "https://amzn.to/3EOG7Jm",
+    "department": "Electronics"
+  },
+  {
+    "name": "Self Cleaning Litter Box - Automatic Cat Litter Box self Cleaning, with 1 Roll Trash Bags and Mat, Small-White",
+    "price": "$199.99",
+    "discountPercent": "-67%",
+    "image": "https://m.media-amazon.com/images/I/61JfIV6VRlL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/3EN4ebs",
+    "department": "Pet Supplies"
   }
 ]
