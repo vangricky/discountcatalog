@@ -463,5 +463,213 @@
     "image": "https://m.media-amazon.com/images/I/61JfIV6VRlL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "link": "https://amzn.to/3EN4ebs",
     "department": "Pet Supplies"
+  },
+  {
+    "name": "You Are a Wildlife Warrior!: Saving Animals & the Planet",
+    "price": "$16.96",
+    "discountPercent": "-15%",
+    "image": "https://m.media-amazon.com/images/I/51Wybiwg01L._SX342_SY445_.jpg",
+    "link": "https://amzn.to/4i7Dh0v",
+    "department": "Books"
+  },
+  {
+    "name": "Physician's Choice Probiotics 60 Billion CFU - 10 Strains + Organic Prebiotics - Immune, Digestive & Gut Health - Supports Occasional Constipation, Diarrhea, Gas & Bloating - for Women & Men - 30ct",
+    "price": "$21.58",
+    "discountPercent": "-27%",
+    "image": "https://m.media-amazon.com/images/I/81h-pMHwTgL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/41rd739",
+    "department": "Health & Household"
+  },
+  {
+    "name": "Graco TurboBooster 2.0 Backless Booster Car Seat, Denton",
+    "price": "$23.19",
+    "discountPercent": "-20%",
+    "image": "https://m.media-amazon.com/images/I/31MdNto-goL._SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4hMNz6d",
+    "department": "Baby"
+  },
+  {
+    "name": "SOJOS Retro Aviator Sunglasses for Women Men,Trendy Rectangle Womens Mens Shades Sun Glasses SJ2202",
+    "price": "No price",
+    "discountPercent": "-36%",
+    "image": "https://m.media-amazon.com/images/I/51TvnTUISOL._AC_SX385_.jpg",
+    "link": "https://amzn.to/436VXZN",
+    "department": "Clothing"
+  },
+  {
+    "name": "The Light Fantastic: A Discworld Novel",
+    "price": "$1.99",
+    "discountPercent": "-89%",
+    "image": "https://m.media-amazon.com/images/I/51HC3ufAVEL._SY445_SX342_.jpg",
+    "link": "https://amzn.to/4k3vl29",
+    "department": "Books"
+  },
+  {
+    "name": "Yankee Candle Bahama Breeze Scented, Classic 22oz Large Jar Single Wick Candle, Over 110 Hours of Burn Time, Perfect for Tropical Beach-Themed Setting",
+    "price": "$14.99",
+    "discountPercent": "-52%",
+    "image": "https://m.media-amazon.com/images/I/71WhgTpJX8L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4i7iVUV",
+    "department": "Health & Household"
+  },
+  {
+    "name": "DripDrop Hydration - Bold Variety Pack - Electrolyte Drink Mix Single Serve Hydration Powder Packets - Watermelon, Berry, Lemon, Orange | Non-GMO, Gluten Free, Vegan | 32 Sticks",
+    "price": "$28.99",
+    "discountPercent": "-19%",
+    "image": "https://m.media-amazon.com/images/I/71Af--tuchL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4hFp8aZ",
+    "department": "Health & Household"
+  },
+  {
+    "name": "Anker Screen Protector for iPhone 15 Pro Max, Bubble-and-Dust-Free iPhone HD Tempered Glass, Durable and Drop-Proof with 9H Hardness, Easy Installation Exclusively for iPhone 15 Pro Max(2-Pack)",
+    "price": "$6.99",
+    "discountPercent": "-42%",
+    "image": "https://m.media-amazon.com/images/I/71cE52xr7hL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/3XbJznI",
+    "department": "Electronics"
+  },
+  {
+    "name": "Flash Furniture Kathryn 6' Plastic Folding Training and Event Table, Rectangular Folding Training Table with 220-lb. Static Weight Capacity, White",
+    "price": "$62.05",
+    "discountPercent": "-27%",
+    "image": "https://m.media-amazon.com/images/I/71WYlcyizjL._AC_SY450_.jpg",
+    "link": "https://amzn.to/3QPoX1b",
+    "department": "Health & Household"
+  },
+  {
+    "name": "Logitech M196 Bluetooth Wireless Mouse, Compact and Portable Mouse for Laptops, Tablets and More, 12-Month Battery, Smooth Tracking, Compatible with PC and Mac, Windows and macOS - Graphite",
+    "price": "$9.99",
+    "discountPercent": "-23%",
+    "image": "https://m.media-amazon.com/images/I/61Y0zPErIxL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/3XbJLmW",
+    "department": "Electronics"
+  },
+  {
+    "name": "Crest Pro-Health Advanced Antibacterial Protection Toothpaste, Crest Toothpaste, Crest Pro Health Toothpaste - Pack of 4, 5 Oz Tubes",
+    "price": "$11.99",
+    "discountPercent": "-20%",
+    "image": "https://m.media-amazon.com/images/I/51G6OyrDDUL._SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/3QvnA7G",
+    "department": "Beauty & Personal Care"
+  },
+  {
+    "name": "Colgate Optic White Renewal Teeth Whitening Toothpaste, Whitening Fluoride Toothpaste, Effectively Removes Tea, Coffee, and Wine Stains, Made with Hydrogen Peroxide, Brilliant Shine, 3 Pack, 3.0 oz",
+    "price": "$16.99",
+    "discountPercent": "-15%",
+    "image": "https://m.media-amazon.com/images/I/51cwKzsPy-L._SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/41p1pWK",
+    "department": "Beauty & Personal Care"
+  },
+  {
+    "name": "Kasa Smart Plug Mini 15A, Smart Home Wi-Fi Outlet Works with Alexa, Google Home & IFTTT, No Hub Required, UL Certified, 2.4G WiFi Only, 4-Pack(EP10P4) , White",
+    "price": "$23.99",
+    "discountPercent": "-20%",
+    "image": "https://m.media-amazon.com/images/I/41tyjDiDGgL._SY445_SX342_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/3EZgrtu",
+    "department": "Tools & Home Improvement"
+  },
+  {
+    "name": "DEWALT Drill Bit Set, 21-Piece, 135 Degree Split Point, 31 Degree Helix, Black Oxide Coated, For Plastic, Wood and Metal (DWA1181)",
+    "price": "$19.97",
+    "discountPercent": "-33%",
+    "image": "https://m.media-amazon.com/images/I/81+SvTR3+JL._AC_SY300_SX300_.jpg",
+    "link": "https://amzn.to/3QxmVm5",
+    "department": "Tools & Home Improvement"
+  },
+  {
+    "name": "Scotch Box Lock Packaging Tape, 6 Rolls with Dispenser, 1.88 in x 800 in, Extreme Grip Packing, Shipping and Mailing Tape, Sticks Instantly to Any Box",
+    "price": "$14.44",
+    "discountPercent": "-49%",
+    "image": "https://m.media-amazon.com/images/I/51SIXkgI8nL._SY445_SX342_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4gUXMwa",
+    "department": "Office Products"
+  },
+  {
+    "name": "Five Star Spiral Notebook + Study App, 3 Subject, College Ruled Paper, Fights Ink Bleed, Water Resistant Cover, 8-1/2\" x 11\", 150 Sheets, White (72464)",
+    "price": "$4.66",
+    "discountPercent": "-67%",
+    "image": "https://m.media-amazon.com/images/I/71C0b9OR-ZL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/41s1N6Y",
+    "department": "Office Products"
+  },
+  {
+    "name": "CAROTE 12 Pieces Kitchen Knife Set, Stainless Steel Knife Set With Nonstick Ceramic Coating, Dishwasher Safe with 6 Blade Guards, Rustproof, Brown",
+    "price": "$17.99",
+    "discountPercent": "-53%",
+    "image": "https://m.media-amazon.com/images/I/71+bfygC42L._AC_SY300_SX300_.jpg",
+    "link": "https://amzn.to/41pYxZH",
+    "department": "Home & Kitchen"
+  },
+  {
+    "name": "Post-it Super Sticky Lined Notes, 15 Sticky Note Pads, Multi-Size., School Supplies, Office Products, Sticky Notes for Vertical Surfaces, Monitors, Walls and Windows, Supernova Neons Collection",
+    "price": "$9.59",
+    "discountPercent": "-39%",
+    "image": "https://m.media-amazon.com/images/I/711JFaOCVnL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/432y9qb",
+    "department": "Office Products"
+  },
+  {
+    "name": "Bluey & Bingo 8\" Mini Plush Bundle - 2 Pack (13066)",
+    "price": "$11.99",
+    "discountPercent": "-25%",
+    "image": "https://m.media-amazon.com/images/I/81ZyH2-jxWL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4kcKcqO",
+    "department": "Toys & Games"
+  },
+  {
+    "name": "Ring Battery Doorbell Plus (newest model) | Head-to-Toe HD+ Video, motion detection & alerts, and Two-Way Talk",
+    "price": "$99.99",
+    "discountPercent": "-33%",
+    "image": "https://m.media-amazon.com/images/I/41ZEK0ptCZL._SY300_SX300_.jpg",
+    "link": "https://amzn.to/4ibhLI4",
+    "department": "Tools & Home Improvement"
+  },
+  {
+    "name": "Govee 100ft RGBIC LED Strip Lights, Smart LED Lights Work with Alexa and Google Assistant, LED Lights for Bedroom WiFi App Control Segmented DIY Multiple Colors, Color Changing Light, NOT Waterproof",
+    "price": "$42.99",
+    "discountPercent": "-41%",
+    "image": "https://m.media-amazon.com/images/I/71N76hGMHVL.__AC_SY445_SX342_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/434fg63",
+    "department": "Tools & Home Improvement"
+  },
+  {
+    "name": "Govee TV Backlight 3 Lite with Fish-Eye Correction Function Sync to 40-50 Inch TVs, 7.8ft RGBICW Wi-Fi LED Strip Lights with Camera, 4 Colors in 1 Lamp Bead, Voice and APP Control, Adapter",
+    "price": "$49.99",
+    "discountPercent": "-29%",
+    "image": "https://m.media-amazon.com/images/I/711nlDCdiGL.__AC_SY445_SX342_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4bsVvaN",
+    "department": "Tools & Home Improvement"
+  },
+  {
+    "name": "Lancôme Monsieur Big Volumizing Mascara for up to 12x More Volume & 24H Wear - False Lash Effect - Black",
+    "price": "$22.50",
+    "discountPercent": "-25%",
+    "image": "https://m.media-amazon.com/images/I/31Jtd5owUaL._SY445_SX342_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4klEuDo",
+    "department": "Beauty & Personal Care"
+  },
+  {
+    "name": "Rubbermaid Brilliance BPA-Free Food Storage Containers with Lids, Airtight Clear Set of 2 (9.6 Cup), Ideal for Lunch, Meal Prep, and Leftovers",
+    "price": "$23.98",
+    "discountPercent": "-23%",
+    "image": "https://m.media-amazon.com/images/I/71wi9GmJX9L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4k7ANku",
+    "department": "Home & Kitchen"
+  },
+  {
+    "name": "VASAGLE Bookshelf, 23.6 Inches Wide, 3-Tier Open Bookcase with Adjustable Storage Shelves, Floor Standing Unit, Cloud White ULBC163T14",
+    "price": "$34.38",
+    "discountPercent": "-20%",
+    "image": "https://m.media-amazon.com/images/I/71ie77pIqoL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/418oBr8",
+    "department": "Tools & Home Improvement"
+  },
+  {
+    "name": "SONGMICS 4-Tier Shoe Rack, Shoe Storage for Hallway Closet, Slim and Space-Saving, Metal Frame, Non-Woven Fabric Shelves, Black ULSH054B01",
+    "price": "$13.45",
+    "discountPercent": "-25%",
+    "image": "https://m.media-amazon.com/images/I/81Nzj4qrbZL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4gQnzpp",
+    "department": "Tools & Home Improvement"
   }
 ]
