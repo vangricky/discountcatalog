@@ -12,18 +12,20 @@ const products = JSON.parse(fs.readFileSync("products.json", "utf-8"));
 
 app.get("/", (req, res) => {
   let search = req.query.search ? req.query.search.toLowerCase() : "";
-  let maxPrice = req.query.maxPrice ? parseFloat(req.query.maxPrice) : null;
+  let maxPrice = req.query.deals ? parseFloat(req.query.deals) : null; // Use 'deals' instead of 'maxPrice'
   let department =
     req.query.department && req.query.department !== "All Departments"
       ? req.query.department.toLowerCase()
       : "";
 
-  let filteredProducts = products.filter(
-    (p) =>
+  let filteredProducts = products.filter((p) => {
+    let priceNumber = parseFloat(p.price.replace(/[^0-9.]/g, "")); // Convert price string to number
+    return (
       p.name.toLowerCase().includes(search) &&
-      (maxPrice === null || p.price <= maxPrice) &&
+      (maxPrice === null || priceNumber <= maxPrice) &&
       (department === "" || p.department.toLowerCase() === department)
-  );
+    );
+  });
 
   filteredProducts = filteredProducts.sort(() => Math.random() - 0.5);
 

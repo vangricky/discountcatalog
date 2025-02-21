@@ -360,25 +360,26 @@ function initDropdowns() {
     }
 
     function applyFilter() {
-        const dealsValue = document.getElementById("dealsFilter").value;
-        const departmentsValue = document.getElementById("departmentsFilter").value;
-        
-        let queryParams = new URLSearchParams(window.location.search);
-        
-        if (dealsValue) {
-            queryParams.set("deals", dealsValue);
-        } else {
-            queryParams.delete("deals");
-        }
-
-        if (departmentsValue) {
-            queryParams.set("department", departmentsValue);
-        } else {
-            queryParams.delete("department");
-        }
-
-        window.location.href = window.location.pathname + "?" + queryParams.toString();
+    const dealsValue = document.getElementById("dealsFilter").value;
+    const departmentsValue = document.getElementById("departmentsFilter").value;
+    
+    let queryParams = new URLSearchParams(window.location.search);
+    
+    if (dealsValue) {
+        queryParams.set("deals", dealsValue); // Ensure it matches the backend
+    } else {
+        queryParams.delete("deals");
     }
+
+    if (departmentsValue) {
+        queryParams.set("department", departmentsValue);
+    } else {
+        queryParams.delete("department");
+    }
+
+    window.location.href = window.location.pathname + "?" + queryParams.toString();
+}
+
 </script>
 
 </body>
