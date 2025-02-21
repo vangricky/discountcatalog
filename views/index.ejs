@@ -63,11 +63,11 @@
             right: 20px;
             background-color: #DFCFBE;
             color: white;
-            padding: 10px;
+            padding: 15px;
             border-radius: 30%;
             cursor: pointer;
             display: none;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3);
         }
 
         .show { display: flex !important; }
@@ -249,23 +249,17 @@
         </div>
 
         <!-- Social Media -->
-        <!-- <div class="text-center md:text-left">
+         <div class="text-center md:text-left">
             <h3 class="text-lg font-semibold">Follow Us</h3>
             <div class="flex space-x-4 mt-2 justify-center md:justify-start">
-                <a href="#" class="hover:text-gray-300">
+                <a href="https://www.facebook.com/profile.php?id=61573392989266" class="hover:text-gray-300">
                     <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="h-6">
                 </a>
-                <a href="#" class="hover:text-gray-300">
-                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" class="h-6">
-                </a>
-                <a href="#" class="hover:text-gray-300">
+                <a href="https://www.instagram.com/discountcatalog" class="hover:text-gray-300">
                     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="h-6">
                 </a>
-                <a href="#" class="hover:text-gray-300">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111532.png" alt="LinkedIn" class="h-6">
-                </a>
             </div>
-        </div> -->
+        </div> 
     </div>
 
     <!-- Copyright -->
@@ -275,15 +269,13 @@
 </footer>
 
 <script>
-    // Auto-update copyright year
     document.getElementById("year").textContent = new Date().getFullYear();
 
- // Toggle dropdown function
+
  function toggleDropdown(id) {
         const dropdown = document.getElementById(id);
         dropdown.classList.toggle("hidden");
 
-        // Close other dropdown if open
         document.querySelectorAll(".dropdown").forEach((el) => {
             if (el.id !== id && !el.classList.contains("hidden")) {
                 el.classList.add("hidden");
@@ -295,7 +287,7 @@
         document.getElementById("mobileMenu").classList.toggle("hidden");
     });
 
-    // Close dropdown when clicking outside
+
     document.addEventListener("click", function (event) {
         if (!event.target.closest(".relative")) {
             document.querySelectorAll(".dropdown").forEach((dropdown) => {
@@ -366,7 +358,7 @@ function initDropdowns() {
     let queryParams = new URLSearchParams(window.location.search);
     
     if (dealsValue) {
-        queryParams.set("deals", dealsValue); // Ensure it matches the backend
+        queryParams.set("deals", dealsValue);
     } else {
         queryParams.delete("deals");
     }
